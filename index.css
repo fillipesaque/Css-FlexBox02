@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;  /* direcionamento em colunas*/
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+.header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center; /*alinha na horizontal*/
+    align-items: center;     /*alinha na vertical*/
+    border: solid 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    /*permite quebrar layout*/
+    padding: 10px;
+    gap: 15px;          /*espaçamento entre os itens*/
+    flex: 1 0 auto;     /*resumo do flex grow flex shrink e flex basis*/
+    align-content: center;  /*alinha conteudo no centro sem espaçamento*/
+
+}
+
+.footer{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.iten1 {
+    flex-basis: 350px;
+    height: 200px;
+    border: solid 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iten2 {
+    flex-basis: 350px;
+    height: 200px;
+    border: solid 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iten3 {
+    flex-basis: 350px;
+    height: 200px;
+    border: solid 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iten4 {
+    flex-basis: 350px;
+    height: 200px;
+    border: solid 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iten5 {
+    flex-basis: 350px;
+    height: 200px;
+    border: solid 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iten6 {
+    flex-basis: 350px;
+    height: 200px;
+    border: solid 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
